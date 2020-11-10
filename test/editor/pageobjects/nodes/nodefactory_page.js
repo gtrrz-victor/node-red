@@ -28,8 +28,6 @@ var templateNode = require('./core/function/80-template_page');
 var delayNode = require('./core/function/89-delay_page');
 var triggerNode = require('./core/function/89-trigger_page');
 var execNode = require('./core/function/90-exec_page');
-var mqttInNode = require('./core/network/10-mqtt_page').mqttInNode;
-var mqttOutNode = require('./core/network/10-mqtt_page').mqttOutNode;
 var httpInNode = require('./core/network/21-httpin_page');
 var httpResponseNode = require('./core/network/21-httpresponse_page');
 var httpRequestNode = require('./core/network/21-httprequest_page');
@@ -63,8 +61,6 @@ var nodeCatalog = {
     "trigger": triggerNode,
     "exec": execNode,
     // network
-    "mqttIn": mqttInNode,
-    "mqttOut": mqttOutNode,
     "httpIn": httpInNode,
     "httpResponse": httpResponseNode,
     "httpRequest": httpRequestNode,

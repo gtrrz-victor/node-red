@@ -32,8 +32,6 @@ var idMap = {
     "trigger": ".red-ui-palette-node[data-palette-type='trigger']",
     "exec": ".red-ui-palette-node[data-palette-type='exec']",
     // network
-    "mqttIn": ".red-ui-palette-node[data-palette-type='mqtt in']",
-    "mqttOut": ".red-ui-palette-node[data-palette-type='mqtt out']",
     "httpIn": ".red-ui-palette-node[data-palette-type='http in']",
     "httpResponse": ".red-ui-palette-node[data-palette-type='http response']",
     "httpRequest": ".red-ui-palette-node[data-palette-type='http request']",
